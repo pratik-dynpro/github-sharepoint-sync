@@ -2,7 +2,7 @@ name: Sync SharePoint Docs
 
 on:
   schedule:
-    - cron: "*/2 * * * *"   # every 6 hours (UTC)
+    - cron: "*/5 * * * *"   # every 5 minutes (GitHub Actions minimum interval)
   workflow_dispatch:          # allow manual runs from the Actions tab
 
 permissions:
