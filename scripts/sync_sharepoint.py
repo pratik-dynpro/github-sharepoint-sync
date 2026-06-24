@@ -12,7 +12,7 @@ SITE_ID = os.environ["SHAREPOINT_SITE_ID"]
 DRIVE_ID = os.environ["SHAREPOINT_DRIVE_ID"]
 
 # Folder inside the library to sync, e.g. "BA-Uploads". Empty string = root.
-SOURCE_FOLDER = os.environ.get("SHAREPOINT_FOLDER", "")
+SOURCE_FOLDER = os.environ.get("SHAREPOINT_FOLDER", "test")
 # Local destination in the repo.
 DEST_DIR = pathlib.Path(os.environ.get("DEST_DIR", "docs"))
 
