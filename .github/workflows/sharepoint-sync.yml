@@ -30,7 +30,7 @@ jobs:
           AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
           SHAREPOINT_SITE_ID:  ${{ secrets.SHAREPOINT_SITE_ID }}
           SHAREPOINT_DRIVE_ID: ${{ secrets.SHAREPOINT_DRIVE_ID }}
-          SHAREPOINT_FOLDER:   "BA-Uploads"   # adjust or remove
+          SHAREPOINT_FOLDER:   "Documentation"   # adjust or remove
           DEST_DIR:            "docs"
         run: python scripts/sync_sharepoint.py
 
